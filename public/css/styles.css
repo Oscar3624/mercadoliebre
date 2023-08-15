@@ -205,6 +205,9 @@ footer section{
         flex-basis: 33%;
         margin-bottom: 50px;
     }
+    .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+        color: #EAC926;
+    }
 }
 
 
