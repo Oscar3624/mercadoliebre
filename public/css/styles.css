@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.descripcion > .fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.fa-truck:hover{
+    transform: rotate(-90deg);
+    transition-duration: 1000ms;
+}
+
+.descripcion {
+    position: relative;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;;
+}
+.LogoML{
+    width: 150px;
+    flex-basis: 40%;
+}
+.LogoMLP{
+    width: 100%;
+}
+.text-header{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-H{
+    background-color: #03264C;
+    text-align: center;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.Visita{
+    text-align: center;
+}
+.Oferta{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.articulos{
+    background-color: white;
+    padding: 15px;
+     margin: 20px;
+}
+.descripcion{
+    text-align: start;
+    border-top: 1px solid #ebebeb;
+}
+
+.precio {
+    display: flex;
+    flex-direction: row;
+}
+.numero{
+    flex-grow: 0.30;
+}
+
+.descuento{
+    flex-grow: 0.70;
+    padding-left: 15px;
+}
+
+footer section{
+    text-align: center;
+}
+#icono-shield, #icono-gift, #icono-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+}
+.img-barra-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+@media (max-width: 479px){
+    h4{
+        font-size: 0px;
+    }
+    nav{
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 766px){
+
+    .menu-H{
+        display: none;
+    }
+    .Visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Oferta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .articulos{
+        text-align: center;
+        flex-basis: 40%;
+    }
+    .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .LogoML{
+        flex-basis: 33%;
+        align-self: center;
+    }
+    .text-header{
+        flex-basis: 33%;
+        align-self: center;
+    }
+    .search-bar{
+        align-self: center;
+    }
+    .barra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    body header nav ul li {
+        
+        padding: 10px;        
+        display: inline-block;
+    }
+
+}
+@media (min-width: 1024px){
+    
+    .menu-H{
+        display: none;
+    }
+    .Visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .Oferta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .articulos{
+        text-align: center;
+        flex-basis: 20%;
+        flex-grow: 1;
+    }
+    .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .imagen{
+        height: 150px;
+        width: 150px;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer section{
+        flex-basis: 33%;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.form-register{
+    display: flex;
+    justify-content: center;
+}
+.form-register input[type="text"], [type="email"], [type="password"], [type="date"]{
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.form-register input[type="radio"], [type="checkbox"], [type="file"]{
+    margin: 10px;
+}
+.form-register input[type="submit"], [type="reset"]{
+    margin: 10px;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+}
+.form-login input[type="text"], input[type="submit"], [type="password"]{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+
+.articulos:hover h4{
+    visibility: visible;
+}
+.articulos h4{
+    visibility: hidden;
+}
+
+.botonE:hover{
+ background-color: #0022AA;
+}
